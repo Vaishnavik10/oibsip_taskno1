@@ -1,0 +1,114 @@
+ body{
+        background-image: url("Images/res3.jpg");
+        font-family: 'PT Serif', serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+        /* background: url(Images/res3.jpg);S */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 43%;
+        margin: 20px auto;
+      
+    }
+
+    .left img {
+        width: 125px;
+        filter: invert(100%);
+        margin: auto 29px
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 29px;
+        display: inline-block;
+       
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: yellow;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: blue;
+        color: white;
+        padding: 3px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'PT Serif', serif;
+    }
+
+    .btn:hover {
+        background-color: green;
+    }
+
+    .container {
+        border: 2px solid lightcyan;
+        margin: 156px 31px;
+        padding: 65px;
+        width: 27%;
+        border-radius: 28px;
+        
+    }
+
+    .form-group input {
+        font-family: 'PT Serif', serif;
+        text-align: center;
+        display: block;
+        width: 333px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 9px auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+        color:white;
+    }
+    .container h2{
+        color: orange;
+    }
+    .container button{
+        display: block;
+        width: 83%;
+        margin: 20px auto;
+
+    } 
